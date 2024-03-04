@@ -10,6 +10,13 @@
       "request": "launch",
       "type": "node-terminal",
       "cwd": "${workspaceFolder}"
+    },
+    {
+      "command": "npx ts-node cmd/main.ts call -f \"name\"",
+      "name": "Command line",
+      "request": "launch",
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
